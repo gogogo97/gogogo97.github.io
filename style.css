@@ -10,16 +10,9 @@ body, html{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* p {
-    background-color: whitesmoke;
-} */
 ul {
     font-size: 300%;
 }
-/* div {
-    margin: 70px;
-    font-size: 200%;
-} */
 .center {
     text-align: center;
 }
@@ -29,12 +22,6 @@ ul {
     z-index: 100;
 }
 .font {
-    /* background-color: aliceblue; */
+
     font-size: 300%;
-}
-h1 {
-    /* background-color: aliceblue; */
-}
-li {
-    /* background-color: aliceblue; */
 }
