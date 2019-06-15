@@ -19,6 +19,8 @@ ul {
 .center {
     text-align: center;
 }
-h1 {
-    font-size: 300%;
-}
+.sticky {
+    position: sticky;
+    top: 10px; /* When the element reaches top: 10px, it becomes fixed. */
+    z-index: 100;
+  }
