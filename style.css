@@ -3,7 +3,8 @@
     padding: 10px;
 } */
 body {
-    background :url(https://steamuserimages-a.akamaihd.net/ugc/27350000397145343/C4D51E37F1AD95F2969B694275D9E0AF7E1D6D01/);
+    background :url(https://media.giphy.com/media/DsfspqzaJmBjO/giphy.gif);
+    background-color: white;
 }
 /* p {
     background-color: whitesmoke;
@@ -23,4 +24,14 @@ ul {
     position: sticky;
     top: 10px; /* When the element reaches top: 10px, it becomes fixed. */
     z-index: 100;
-  }
+}
+.font {
+    background-color: aliceblue;
+    font-size: 300%;
+}
+h1 {
+    background-color: aliceblue;
+}
+li {
+    background-color: aliceblue;
+}
