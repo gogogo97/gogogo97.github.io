@@ -2,16 +2,19 @@
     margin: 5px;
     padding: 10px;
 } */
-body {
-    background :url(https://media1.tenor.com/images/3d73d7564d5f983b1c220eaa007aac09/tenor.gif?itemid=10886507);
-    background-color: white;
+body, html{
+    background :url(https://images.unsplash.com/photo-1503455637927-730bce8583c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80); 
+    height: 140%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* p {
     background-color: whitesmoke;
 } */
 ul {
     font-size: 300%;
-    text-align: center;
 }
 /* div {
     margin: 70px;
@@ -26,12 +29,12 @@ ul {
     z-index: 100;
 }
 .font {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     font-size: 300%;
 }
 h1 {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 li {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
