@@ -3,15 +3,22 @@
     padding: 10px;
 } */
 body {
-    background-repeat: repeat-y;
     background :url(https://steamuserimages-a.akamaihd.net/ugc/27350000397145343/C4D51E37F1AD95F2969B694275D9E0AF7E1D6D01/);
 }
 /* p {
     background-color: whitesmoke;
 } */
-div {
-    margin: 70px
+ul {
+    font-size: 300%;
+    text-align: center;
 }
+/* div {
+    margin: 70px;
+    font-size: 200%;
+} */
 .center {
     text-align: center;
+}
+h1 {
+    font-size: 300%;
 }
