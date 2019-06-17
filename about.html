@@ -9,10 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Jumbo</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></head>
 <body> 
         <nav class="navbar navbar-expand-lg navbar-inverse navbar-fixed-top">
                 <div class="container-fluid">
@@ -21,71 +25,47 @@
                   </div>
                   <nav class="navbar navbar-nav navbar-right">
                   <ul class="list-inline">
-                    <li class="active"><a href="https://www.facebook.com/profile.php?id=100002351563050">Facebook</a></li>
-                    <li><a href="https://www.instagram.com/jjjjjumbo/">Instagram</a></li>
-                    <li><a href="https://gogogo97.github.io/about.html">About me</a></li>
-                    <li><a href="https://gogogo97.github.io/thingsILike.html">Things I like</a></li>
-                    <li><a href="https://gogogo97.github.io/myReview.html">My Review</a></li>
+                    <li class="active"><a style="color: lightskyblue" href="https://www.facebook.com/profile.php?id=100002351563050">Facebook</a></li>
+                    <li><a style="color: plum" href="https://www.instagram.com/jjjjjumbo/">Instagram</a></li>
+                    <li><a style="color: wheat" href="https://gogogo97.github.io/about.html">About me</a></li>
+                    <li><a style="color: wheat" href="https://gogogo97.github.io/thingsILike.html">Things I like</a></li>
+                    <li><a style="color: wheat" href="https://gogogo97.github.io/myReview.html">My Review</a></li>
                   </ul>
                   </nav>
                 </div>
               </nav>
-              <p class="font">This page is 25% done.</p>
-              <div class="progress">                
-                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                      </div>
-    <div class="center">
-    <h1>Hello!</h1>
-    <h2>This is my first html coded page!</h2>
-    <h3>So I might as well introduce myself.</h3>
-    
-        <img src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.0-9/57331318_2230554860366211_851712549035442176_n.jpg?_nc_cat=111&_nc_oc=AQk2xWYUpo0qkbqyCb0cClngkqX8zyOFON0VmtSQVcQ5zVLCy5G09kh9Mg1hsF8d91_zl4XoE-sVXFs1HfuGR4Iz&_nc_ht=scontent.fbkk10-1.fna&oh=154a3232dd08a8454ad8abc1c65f5893&oe=5D911352" width="250px" class="img-thumbnail" >
+  <div>
+    <h1 class="center">Hello!</h1>
+    <div id="AboutJumboSlide" class="carousel slide size center" data-ride="carousel" style="margin: auto">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./aboutme1.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./aboutme2.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./aboutme3.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./aboutme4.jpg" alt="">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#AboutJumboSlide" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">ก่อนหน้า</span>
+      </a>
+      <a class="carousel-control-next" href="#AboutJumboSlide" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">ต่อไป</span>
+      </a>
+    </div>
         <div class="jumbotron" style="font-style: unset">
         <p> My name is Woraton Sartsangchan. </p>
-        <p> My nickname is Jumbo.</p>
-        <p> I'm 20 years old.</p>
-        <p> My bloodtype is B.</p>
-        <p> Aliases : Mastermind, DWN-Infinity.</p>
-        <p> I'm currently studying in Faculty of Kasetsart : Computer Science.</p>  
+        <p> I was born in a mediocre family, not too poor but not too rich either. </p>
+
         </div>      
-    </div>
-    <div>
-        <h1>Favourite section.</h1>
-        <ul>
-                <div class="container">
-                    <div class="row">
-                      <div class="col-sm" style="background-color: white">
-                        <img src="https://static.mercdn.net/item/detail/orig/photos/m18007204387_4.jpg?1555857495" width="300" height="300">
-                      </div>
-                      <div class="col-sm" style="background-color: brown">
-                        Gundam OS-13MS
-                      </div>                      
-                    </div>
-                  </div>
-            <li>    
-                Food : Gyoza is the best.  
-            </li>
-            <li>
-                Video Game : All kinds of MOBA.
-            </li>
-        </ul>
-
-    </div>
-    <div>
-        <h1> I have the basics of... </h1>
-        <ul>
-            <li> 
-                Python 
-            </li>
-            <li>
-                C
-            </li>
-            <li>
-                C++
-            </li>
-        </ul>
-    </div>
-
+  </div>
 <hr / style="background-color:grey">    
 </body>
 </html>

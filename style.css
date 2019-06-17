@@ -4,14 +4,17 @@
 } */
 body, html{
     background :url(https://images.unsplash.com/photo-1503455637927-730bce8583c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80); 
-    height: 140%;
-    width: 100%;
+    margin: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 ul {
     font-size: 300%;
+}
+.size {
+    height: 50%;
+    width: 50%;
 }
 .center {
     text-align: center;
@@ -22,7 +25,6 @@ ul {
     z-index: 100;
 }
 .font {
-
     font-size: 300%;
 }
 .navbar-brand>img {
@@ -30,8 +32,6 @@ ul {
     height: 100%;
     width: auto;
     margin: 0 auto;
- 
- 
     /* probably not needed anymore, but doesn't hurt */
     -o-object-fit: contain;
     object-fit: contain; 
