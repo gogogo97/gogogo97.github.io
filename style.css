@@ -2,12 +2,15 @@
     margin: 5px;
     padding: 10px;
 } */
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
 body, html{
     background :url(https://images.unsplash.com/photo-1503455637927-730bce8583c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80); 
     margin: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Oswald', sans-serif !important;
 }
 ul {
     font-size: 300%;
